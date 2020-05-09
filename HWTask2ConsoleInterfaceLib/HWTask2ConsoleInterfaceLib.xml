@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HWTask2ConsoleInterfaceLib</name>
+    </assembly>
+    <members>
+        <member name="T:HWTask2ConsoleInterfaceLib.ConsoleInterface">
+            <summary>
+            Class realizing UI.
+            </summary>
+        </member>
+        <member name="M:HWTask2ConsoleInterfaceLib.ConsoleInterface.#ctor">
+            <summary>
+            Simple initialization.
+            </summary>
+        </member>
+        <member name="M:HWTask2ConsoleInterfaceLib.ConsoleInterface.StartInterface">
+            <summary>
+            Method start UI.
+            </summary>
+        </member>
+        <member name="M:HWTask2ConsoleInterfaceLib.ConsoleInterface.CreatePerson">
+            <summary>
+            Creating person and add it in list.
+            </summary>
+        </member>
+        <member name="M:HWTask2ConsoleInterfaceLib.ConsoleInterface.ShowPersonLisn">
+            <summary>
+            Show all persons in list.
+            </summary>
+        </member>
+        <member name="M:HWTask2ConsoleInterfaceLib.ConsoleInterface.ChangePerson">
+            <summary>
+            Changing selected person.
+            </summary>
+        </member>
+        <member name="M:HWTask2ConsoleInterfaceLib.ConsoleInterface.CheckData">
+            <summary>
+            Realize simple check person info.
+            </summary>
+        </member>
+        <member name="M:HWTask2ConsoleInterfaceLib.ConsoleInterface.CheckNumber">
+            <summary>
+            Check correct input.
+            </summary>
+            <returns>number</returns>
+        </member>
+        <member name="M:HWTask2ConsoleInterfaceLib.ConsoleInterface.PersonValue">
+            <summary>
+            Chose correct person id.
+            </summary>
+            <returns>person id (number)</returns>
+        </member>
+        <member name="M:HWTask2ConsoleInterfaceLib.ConsoleInterface.MenuItem">
+            <summary>
+            Chose correct menu item.
+            </summary>
+        </member>
+    </members>
+</doc>
